@@ -85,11 +85,11 @@ document.getElementById("cForm").addEventListener("submit", e => {
 // ⚠️ Make sure these filenames match EXACTLY what is inside your assets/images/ folder
 const CERTS = {
   py: {
-    src:   "assests/images/courseraPythonCrashCourseCertificate.pdf",
+    src:   "assests/pdf/courseraPythonCrashCourseCertificate.pdf",
     title: "Google Python Certificate"
   },
   js: {
-    src:   "assests/images/JavaScriptEssentials.pdf",
+    src:   "assests/pdf/JavaScriptEssentials.pdf",
     title: "JavaScript Essentials 1 Certificate"
   }
 };
