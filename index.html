@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ayesha Javed — Front-End Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div id="cur"></div>
+<div id="cur-r"></div>
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+
+<!-- CERT MODAL -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <div class="modal-head">
+      <span id="modal-title">Certificate</span>
+      <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="modal-body">
+     <iframe 
+  id="modal-frame" 
+  src="" 
+  style="width:100%; height:75vh; border:none; border-radius:8px; display:block;">
+</iframe>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="h-tag">&#9654; Available for Freelance &amp; Remote Work</div>
+        <h1 class="h-name">Ayesha<br/><span class="g">Javed</span></h1>
+        <div class="h-sub">&gt; <span id="typed"></span><span class="blink">_</span></div>
+        <p class="h-desc">A passionate front-end developer from Pakistan crafting beautiful, responsive web interfaces. Turning ideas into pixel-perfect digital experiences with clean, purposeful code.</p>
+        <div class="h-socials">
+          <a href="https://github.com/Ayesha0987654321" target="_blank" class="soc"><i class="fab fa-github"></i></a>
+          <a href="mailto:javedayesha0987@gmail.com" class="soc"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+923232436326" class="soc"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="hp-card">
+          <div class="stat-grid">
+            <div><span class="stat-num">3.94</span><div class="stat-lbl">CGPA / 4.00</div></div>
+            <div><span class="stat-num">2+</span><div class="stat-lbl">Certifications</div></div>
+            <div><span class="stat-num">1+</span><div class="stat-lbl">Live Projects</div></div>
+            <div><span class="stat-num">5+</span><div class="stat-lbl">Technologies</div></div>
+          </div>
+        </div>
+        <div class="avail"><div class="pulse"></div>Open to remote &amp; freelance opportunities</div>
+        <div class="hp-card" style="padding:1.3rem 1.6rem;">
+          <div style="font-size:.68rem;color:var(--gray);font-family:var(--font-mono);letter-spacing:1px;margin-bottom:.7rem;">TECH STACK</div>
+          <div class="tech-tags">
+            <span class="t-tag">HTML5</span><span class="t-tag">CSS3</span><span class="t-tag">JavaScript</span>
+            <span class="t-tag">Bootstrap</span><span class="t-tag">Python</span><span class="t-tag">C++</span>
+            <span class="t-tag">SQL</span><span class="t-tag">Git</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="av-ring2"></div>
+        <div class="av-ring"></div>
+        <div class="av-blob">AJ</div>
+      </div>
+      <div class="reveal">
+        <span class="s-tag">// about me</span>
+        <h2 class="s-title">Crafting Interfaces <em>with Heart</em></h2>
+        <div class="s-line"></div>
+        <p>I&#39;m <strong>Ayesha Javed</strong>, a motivated IT student at Bahauddin Zakariya University, Multan, consistently achieving a <strong>CGPA of 3.94/4.00</strong>. My passion lies in building clean, responsive, and visually compelling user interfaces.</p>
+        <p>I have hands-on experience with <strong>HTML5, CSS3, and JavaScript</strong>, and I&#39;ve applied these skills to build real-world inspired projects including a complete e-commerce frontend. I&#39;m certified in <strong>Python (Google/Coursera)</strong> and <strong>JavaScript (Cisco Networking Academy)</strong>.</p>
+        <p>I actively seek <strong>remote or freelance opportunities</strong> where I can grow through real challenges and build things that matter.</p>
+        <div class="about-facts">
+          <div class="af-item"><span class="af-k">Location</span><span class="af-v">Sadiqabad, Punjab, Pakistan</span></div>
+          <div class="af-item"><span class="af-k">Email</span><span class="af-v">javedayesha0987@gmail.com</span></div>
+          <div class="af-item"><span class="af-k">University</span><span class="af-v">BZU Multan</span></div>
+          <div class="af-item"><span class="af-k">Languages</span><span class="af-v">English &middot; Urdu</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SKILLS ═══ -->
+<section id="skills">
+  <div class="wrap">
+    <span class="s-tag reveal">// technical skills</span>
+    <h2 class="s-title reveal">My <em>Toolkit</em></h2>
+    <div class="s-line reveal"></div>
+    <div class="skills-grid">
+      <div class="sk-card reveal">
+        <div class="sk-icon">&#127760;</div>
+        <h3>Front-End Development</h3>
+        <div class="bar-row"><span>HTML5</span><span>90%</span></div>
+        <div class="bar-bg"><div class="bar-fill" data-w="90"></div></div>
+        <div class="bar-row"><span>CSS3</span><span>85%</span></div>
+        <div class="bar-bg"><div class="bar-fill" data-w="85"></div></div>
+        <div class="bar-row"><span>Responsive Design</span><span>85%</span></div>
+        <div class="bar-bg"><div class="bar-fill" data-w="85"></div></div>
+        <div class="bar-row"><span>Bootstrap</span><span>75%</span></div>
+        <div class="bar-bg"><div class="bar-fill" data-w="75"></div></div>
+      </div>
+      <div class="sk-card reveal">
+        <div class="sk-icon">&#9889;</div>
+        <h3>Programming Languages</h3>
+        <div class="bar-row"><span>JavaScript</span><span>70%</span></div>
+        <div class="bar-bg"><div class="bar-fill" data-w="70"></div></div>
+        <div class="bar-row"><span>Python</span><span>60%</span></div>
+        <div class="bar-bg"><div class="bar-fill" data-w="60"></div></div>
+        <div class="bar-row"><span>C++</span><span>55%</span></div>
+        <div class="bar-bg"><div class="bar-fill" data-w="55"></div></div>
+        <div class="bar-row"><span>SQL / MySQL</span><span>50%</span></div>
+        <div class="bar-bg"><div class="bar-fill" data-w="50"></div></div>
+      </div>
+      <div class="sk-card reveal">
+        <div class="sk-icon">&#128295;</div>
+        <h3>Tools &amp; Platforms</h3>
+        <div class="sk-tags">
+          <span class="sk-tag">Git</span><span class="sk-tag">GitHub</span><span class="sk-tag">VS Code</span>
+          <span class="sk-tag">Figma</span><span class="sk-tag">GitHub Pages</span><span class="sk-tag">Chrome DevTools</span>
+        </div>
+      </div>
+      <div class="sk-card reveal">
+        <div class="sk-icon">&#10024;</div>
+        <h3>Core Competencies</h3>
+        <div class="sk-tags">
+          <span class="sk-tag">UI Cloning</span><span class="sk-tag">Layout Design</span>
+          <span class="sk-tag">Cross-Browser</span><span class="sk-tag">Mobile-First</span>
+          <span class="sk-tag">Clean Code</span><span class="sk-tag">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROJECTS ═══ -->
+<section id="projects" style="background:var(--bg2);">
+  <div class="wrap">
+    <span class="s-tag reveal">// projects</span>
+    <h2 class="s-title reveal">What I&#39;ve <em>Built</em></h2>
+    <div class="s-line reveal"></div>
+    <div style="max-width:560px;">
+      <div class="proj-card reveal">
+        <div class="proj-banner">
+          <div class="proj-pattern"></div>
+          <div class="proj-glow"></div>
+          <div class="proj-ico">&#128717;</div>
+          <span class="proj-badge">Live</span>
+        </div>
+        <div class="proj-body">
+          <h3>Bonanza Satrangi E-Commerce</h3>
+          <p>A fully responsive multi-page e-commerce frontend inspired by Pakistan&#39;s leading fashion brand. Features a responsive navbar, hero banners, product cards, dropdown menus, and search functionality.</p>
+          <div class="proj-techs">
+            <span class="p-tag">HTML5</span><span class="p-tag">CSS3</span>
+            <span class="p-tag">JavaScript</span><span class="p-tag">Responsive</span>
+          </div>
+          <div class="proj-links">
+            <a href="https://ayesha0987654321.github.io/Bonanza-Satrangi-Inspired-E-commerce-Website/" target="_blank" class="pl pl-p"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="https://github.com/Ayesha0987654321/Bonanza-Satrangi-Inspired-E-commerce-Website" target="_blank" class="pl pl-g"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ EDUCATION ═══ -->
+<section id="education">
+  <div class="wrap">
+    <span class="s-tag reveal">// education</span>
+    <h2 class="s-title reveal">Academic <em>Journey</em></h2>
+    <div class="s-line reveal"></div>
+    <div class="tl">
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-yr">2023 &mdash; Present</div>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <div class="tl-inst">Bahauddin Zakariya University, Multan</div>
+          <span class="tl-badge">&#11088; CGPA: 3.94 / 4.00</span>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-yr">Completed</div>
+          <h3>FSc Pre-Biology</h3>
+          <div class="tl-inst">Punjab College, Sadiqabad</div>
+          <span class="tl-badge">&#128202; 1014 / 1100</span>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-yr">Completed</div>
+          <h3>Matriculation (Science)</h3>
+          <div class="tl-inst">Board of Secondary Education, Pakistan</div>
+          <span class="tl-badge">&#128202; 1009 / 1100</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CERTIFICATIONS ═══ -->
+<section id="certifications">
+  <div class="wrap">
+    <span class="s-tag reveal">// certifications</span>
+    <h2 class="s-title reveal">My <em>Credentials</em></h2>
+    <div class="s-line reveal"></div>
+    <div class="cert-grid">
+
+      <div class="cert-card reveal" onclick="openModal('py')">
+        <div class="cert-ico">&#128013;</div>
+        <div class="cert-info">
+          <h4>Crash Course on Python</h4>
+          <p>Authorized by Google &amp; offered through Coursera. Completed Aug 22, 2025.</p>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i> Google / Coursera &mdash; Verified</div>
+          <div class="cert-open"><i class="fas fa-file-pdf"></i> Click to view certificate</div>
+        </div>
+      </div>
+
+      <div class="cert-card reveal" onclick="openModal('js')">
+        <div class="cert-ico">&#9889;</div>
+        <div class="cert-info">
+          <h4>JavaScript Essentials 1</h4>
+          <p>Cisco Networking Academy &amp; JS Institute. Completed Aug 17, 2025.</p>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i> Cisco Networking Academy &mdash; Verified</div>
+          <div class="cert-open"><i class="fas fa-file-pdf"></i> Click to view certificate</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact" style="background:var(--bg2);">
+  <div class="wrap">
+    <span class="s-tag reveal">// contact</span>
+    <h2 class="s-title reveal">Let&#39;s <em>Connect</em></h2>
+    <div class="s-line reveal"></div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-intro"><p>I&#39;m actively looking for remote, freelance, or part-time frontend development opportunities. Whether you have a project in mind or just want to say hello &mdash; my inbox is always open!</p></div>
+        <div class="c-items">
+          <a href="mailto:javedayesha0987@gmail.com" class="c-item">
+            <div class="c-ico"><i class="fas fa-envelope"></i></div>
+            <div><div class="c-lbl">Email</div><div class="c-val">javedayesha0987@gmail.com</div></div>
+          </a>
+          <a href="tel:+923232436326" class="c-item">
+            <div class="c-ico"><i class="fas fa-phone"></i></div>
+            <div><div class="c-lbl">Phone</div><div class="c-val">0323-2436326</div></div>
+          </a>
+          <a href="https://github.com/Ayesha0987654321" target="_blank" class="c-item">
+            <div class="c-ico"><i class="fab fa-github"></i></div>
+            <div><div class="c-lbl">GitHub</div><div class="c-val">github.com/Ayesha0987654321</div></div>
+          </a>
+          <div class="c-item" style="cursor:default;">
+            <div class="c-ico"><i class="fas fa-map-marker-alt"></i></div>
+            <div><div class="c-lbl">Location</div><div class="c-val">Sadiqabad, Punjab, Pakistan &#127477;&#127472;</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <form class="contact-form" id="cForm">
+          <div class="fg"><label>YOUR NAME</label><input type="text" placeholder="e.g. John Smith" required/></div>
+          <div class="fg"><label>YOUR EMAIL</label><input type="email" placeholder="john@example.com" required/></div>
+          <div class="fg"><label>MESSAGE</label><textarea placeholder="Tell me about your project..." required></textarea></div>
+          <button type="submit" class="btn-send"><i class="fas fa-paper-plane"></i> Send Message</button>
+          <div id="fs" style="display:none;text-align:center;color:#4ade80;font-size:.85rem;font-family:var(--font-mono);margin-top:.4rem;">&#10003; Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Designed &amp; Developed with <span>&#9829;</span> by <span>Ayesha Javed</span> &nbsp;&bull;&nbsp; &copy; 2025 All rights reserved.</p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
